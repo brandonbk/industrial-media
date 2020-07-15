@@ -4,6 +4,7 @@
     "<query>": {},
     "<page>": {},
     "<adunit>": {},
+    "<card-deck>": {},
     "@header": "string",
     "@max-pages": "number"
   },

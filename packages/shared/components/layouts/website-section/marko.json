@@ -31,5 +31,38 @@
     "@ad-slots": "function",
     "@right-rail-header": "string",
     "@with-oop-ads": "boolean"
+  },
+  "<shared-website-section-page-grid-layout>": {
+    "template": "./grid.marko",
+    "<head>": {},
+    "<in-head>": {},
+    "<above-container>": {},
+
+    "<page>": {},
+
+    "<loader>": {
+      "<featured-params>": {},
+      "<standard-params>": {},
+      "@with-standard-query": "boolean"
+    },
+    "@id": {
+      "type": "string",
+      "required": true
+    },
+    "@alias": {
+      "type": "string",
+      "required": true
+    },
+    "@name": {
+      "type": "string",
+      "required": true
+    },
+    "@page-node": {
+      "type": "object",
+      "required": true
+    },
+    "@ad-slots": "function",
+    "@right-rail-header": "string",
+    "@with-oop-ads": "boolean"
   }
 }
